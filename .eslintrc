@@ -1,0 +1,58 @@
+{
+  // Configuration for JavaScript files
+  "plugins": ["you-dont-need-lodash-underscore"],
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "rules": {
+    "no-console": "off",
+    "import/extensions": "off",
+    "react/jsx-filename-extension": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "overrides": [
+    // Configuration for TypeScript files
+    {
+      "parser": "@typescript-eslint/parser",
+      "files": ["**/*.ts"],
+      "plugins": [
+        "@typescript-eslint",
+        "unused-imports",
+        "simple-import-sort",
+        "you-dont-need-lodash-underscore"
+      ],
+      "extends": [
+        "airbnb-typescript",
+        "plugin:prettier/recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "rules": {
+        "@typescript-eslint/ban-ts-comment": "off",
+        "react/jsx-filename-extension": "off",
+        "prettier/prettier": [
+          "error",
+          {
+            "singleQuote": true,
+            "endOfLine": "auto"
+          }
+        ]
+      }
+    },
+    // Configuration for testing
+    {
+      "files": ["**/*.spec.ts"],
+      "plugins": ["jest", "jest-formatting"],
+      "extends": [
+        "plugin:jest/recommended",
+        "plugin:jest-formatting/recommended"
+      ]
+    }
+  ]
+}

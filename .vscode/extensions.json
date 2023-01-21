@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "orta.vscode-jest",
+    "knisterpeter.vscode-commitizen",
+    "davidanson.vscode-markdownlint"
+  ]
+}

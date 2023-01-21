@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# cypress
+cypress/screenshots
+cypress/videos
+
+# next.js
+/.next
+/out
+
+# cache
+.swc/
+
+*.env*
+
+.nyc_output
+/cypress
+
+*.tsbuildinfo
+
+/dist
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv local files
+.env*.local
+
+# local folder
+local
+
+# vercel
+.vercel
+
+# Our tests are a joke and very much not finished lmfao
+tests 
+jest.config.cjs
