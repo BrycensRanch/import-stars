@@ -33,7 +33,7 @@
     "date-fns": "^2.29.3",
     "figlet": "^1.5.2",
     "got": "^12.5.3",
-    "inquirer": "^8.2.5",
+    "inquirer": "^9.0.0",
     "ora": "^6.1.2"
   },
   "devDependencies": {
