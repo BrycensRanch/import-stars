@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@commander-js/extra-typings': ^9.4.1
+  '@commander-js/extra-typings': ^10.0.0
   '@commitlint/cli': ^17.3.0
   '@commitlint/config-conventional': ^17.3.0
   '@commitlint/cz-commitlint': ^17.3.0
@@ -42,7 +42,7 @@ specifiers:
   typescript: ^4.9.4
 
 dependencies:
-  '@commander-js/extra-typings': 9.4.1_commander@10.0.0
+  '@commander-js/extra-typings': 10.0.2_commander@10.0.0
   chalk: 5.2.0
   commander: 10.0.0
   date-fns: 2.29.3
@@ -426,10 +426,10 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@commander-js/extra-typings/9.4.1_commander@10.0.0:
-    resolution: {integrity: sha512-v0BqORYamk1koxDon6femDGLWSL7P78vYTyOU5nFaALnmNALL+ktgdHvWbxzzBBJIKS7kv3XvM/DqNwiLcgFTA==}
+  /@commander-js/extra-typings/10.0.2_commander@10.0.0:
+    resolution: {integrity: sha512-PSGG74fpbc2/WRInbKJbwKiUwdN9YqZSgHxDGMqInUe4G6DTLp90ww12uHMC1U/219qPWI0fLSSjwVDUTdnqIQ==}
     peerDependencies:
-      commander: 9.4.x
+      commander: 10.0.x
     dependencies:
       commander: 10.0.0
     dev: false
