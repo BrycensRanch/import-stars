@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@commander-js/extra-typings':
     specifier: ^10.0.0
-    version: 10.0.2(commander@10.0.0)
+    version: 10.0.2(commander@11.1.0)
   chalk:
     specifier: ^5.2.0
     version: 5.2.0
   commander:
-    specifier: ^10.0.0
-    version: 10.0.0
+    specifier: ^11.0.0
+    version: 11.1.0
   date-fns:
     specifier: ^2.29.3
     version: 2.29.3
@@ -542,12 +542,12 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@commander-js/extra-typings@10.0.2(commander@10.0.0):
+  /@commander-js/extra-typings@10.0.2(commander@11.1.0):
     resolution: {integrity: sha512-PSGG74fpbc2/WRInbKJbwKiUwdN9YqZSgHxDGMqInUe4G6DTLp90ww12uHMC1U/219qPWI0fLSSjwVDUTdnqIQ==}
     peerDependencies:
       commander: 10.0.x
     dependencies:
-      commander: 10.0.0
+      commander: 11.1.0
     dev: false
 
   /@commitlint/cli@17.3.0:
@@ -2019,9 +2019,9 @@ packages:
     resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
     dev: true
 
-  /commander@10.0.0:
-    resolution: {integrity: sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==}
-    engines: {node: '>=14'}
+  /commander@11.1.0:
+    resolution: {integrity: sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==}
+    engines: {node: '>=16'}
     dev: false
 
   /commander@9.4.1:
