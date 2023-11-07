@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@commander-js/extra-typings':
-    specifier: ^10.0.0
-    version: 10.0.2(commander@11.1.0)
+    specifier: ^11.0.0
+    version: 11.1.0(commander@11.1.0)
   chalk:
     specifier: ^5.2.0
     version: 5.2.0
@@ -542,10 +542,10 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@commander-js/extra-typings@10.0.2(commander@11.1.0):
-    resolution: {integrity: sha512-PSGG74fpbc2/WRInbKJbwKiUwdN9YqZSgHxDGMqInUe4G6DTLp90ww12uHMC1U/219qPWI0fLSSjwVDUTdnqIQ==}
+  /@commander-js/extra-typings@11.1.0(commander@11.1.0):
+    resolution: {integrity: sha512-GuvZ38d23H+7Tz2C9DhzCepivsOsky03s5NI+KCy7ke1FNUvsJ2oO47scQ9YaGGhgjgNW5OYYNSADmbjcSoIhw==}
     peerDependencies:
-      commander: 10.0.x
+      commander: 11.1.x
     dependencies:
       commander: 11.1.0
     dev: false
