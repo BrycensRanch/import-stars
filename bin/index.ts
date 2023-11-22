@@ -58,7 +58,7 @@ async function main() {
         '-g, --ghToken <token>',
         'GITHUB_TOKEN (PAT) Passing this option is insecure because it can be seen on your shell history. Use with caution.'
       ).argParser((value) => {
-        if (!isValidUserGitHubToken(value))
+        if (!(await isValidUserGitHubToken(value)))
           throw new InvalidArgumentError(
             'GitHub Token provided in flags is not valid.'
           );
