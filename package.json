@@ -30,7 +30,7 @@
     "@commander-js/extra-typings": "^11.0.0",
     "chalk": "^5.2.0",
     "commander": "^11.0.0",
-    "date-fns": "^2.29.3",
+    "date-fns": "^3.0.0",
     "figlet": "^1.5.2",
     "got": "^13.0.0",
     "inquirer": "^9.0.0",
