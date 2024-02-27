@@ -37,9 +37,9 @@
     "ora": "^7.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
-    "@commitlint/cz-commitlint": "^17.3.0",
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@commitlint/cz-commitlint": "^19.0.0",
     "@jest/globals": "^29.3.1",
     "@types/figlet": "^1.5.5",
     "@types/inquirer": "^9.0.3",
